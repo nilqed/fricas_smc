@@ -40,7 +40,7 @@ If you want to see what is going on then you can perform the instructions in the
 
 * `pip install jupyter`
 * `cd $HOME`
-* `wget` [fricas-sbcl-local](https://github.com/nilqed/fricas_smc/releases/download/untagged-2f3237657281886e9332/fricas-sbcl-local.tar.gz) 
+* `wget` [fricas-sbcl-local](https://github.com/nilqed/fricas_smc/releases/download/v0.9.5/fricas-sbcl-local.tar.gz) 
 * `tar xzvf fricas-sbcl-local.tar.gz`
 * `cd lib`
 * `git clone https://github.com/nilqed/fricas_jupyter`

@@ -27,7 +27,7 @@ cd $HOME
 pip install jupyter
 
 # get fricas-sbcl-local
-wget https://github.com/nilqed/fricas_smc/releases/download/untagged-2f3237657281886e9332/fricas-sbcl-local.tar.gz
+wget https://github.com/nilqed/fricas_smc/releases/download/v0.9.5/fricas-sbcl-local.tar.gz
 
 # unpack fricas-sbcl-local
 tar xzvf fricas-sbcl-local.tar.gz
