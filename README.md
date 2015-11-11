@@ -28,9 +28,11 @@ and [`FriCAS`](https://github.com/fricas/fricas) on
 
 ##### Notebook
 
-    Menu: Files -> lib -> fricas_jupyter -> ipynb
+    Menu: Files -> fricas_smc -> tests
     ... click on test.ipynb 
     ... wait for kernel ready then: Cell -> Run all
+    ..
+    New notebook -> change kernel "FriCAS"
     
 
 
@@ -60,6 +62,9 @@ Cleaning:
 * `rm iSPAD`
 * `cd $HOME`
 * `rm fricas-sbcl-local.tar.gz`
+
+The folder `fricas_smc` can also be deleted (preferably after testing).
+
 
 CodeMirror mode/lexer:
 

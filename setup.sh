@@ -51,7 +51,7 @@ export AXIOM=$HOME
 # end install
 
 # tidy up
-cd lib/fricas_jupyter
+cd $HOME/lib/fricas_jupyter
 rm -r ./ifricas
 rm iSPAD
 cd $HOME
