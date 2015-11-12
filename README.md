@@ -1,12 +1,13 @@
 # fricas_smc
 
-FriCAS+Jupyter Installation on SCM (binary distribution) 
+FriCAS+Jupyter+Gnuplot Installation on SCM (binary distribution) 
 
 ##### Versions
 
     FriCAS .... 1.2.7
     SBCL ...... 1.2.6
     iSPAD ..... 0.9.6
+    Gnuplot ... 5.0.1
 
 This repository only contains the tools in order to install the 
 [`iSPAD`](https://bitbucket.org/kfp/ispad) Jupyter kernel
@@ -45,7 +46,7 @@ If you want to see what is going on then you can perform the instructions in the
 
 * `pip install jupyter`
 * `cd $HOME`
-* `wget` [fricas-sbcl-local](https://github.com/nilqed/fricas_smc/releases/download/v0.9.5/fricas-sbcl-local.tar.gz) 
+* `wget` [fricas-sbcl-local](https://github.com/nilqed/fricas_smc/releases/download/v0.9.6/fricas-sbcl-local.tar.gz) 
 * `tar xzvf fricas-sbcl-local.tar.gz`
 * `cd lib`
 * `git clone https://github.com/nilqed/fricas_jupyter`
