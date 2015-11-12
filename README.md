@@ -6,7 +6,7 @@ FriCAS+Jupyter Installation on SCM (binary distribution)
 
     FriCAS .... 1.2.7
     SBCL ...... 1.2.6
-    iSPAD ..... 0.9.5
+    iSPAD ..... 0.9.6
 
 This repository only contains the tools in order to install the 
 [`iSPAD`](https://bitbucket.org/kfp/ispad) Jupyter kernel
@@ -28,12 +28,15 @@ and [`FriCAS`](https://github.com/fricas/fricas) on
 
 ##### Notebook
 
-    Menu: Files -> fricas_smc -> tests
+    Menu: Files -> lib -> fricas_jupyter -> static -> ipynb
     ... click on test.ipynb 
     ... wait for kernel ready then: Cell -> Run all
     ..
     New notebook -> change kernel "FriCAS"
+   
     
+The **notebook output** should look like: 
+[test.html](http://kfp.bitbucket.org/tmp/test.html)
 
 
 ## Manual Installation
@@ -63,7 +66,7 @@ Cleaning:
 * `cd $HOME`
 * `rm fricas-sbcl-local.tar.gz`
 
-The folder `fricas_smc` can also be deleted (preferably after testing).
+The folder `fricas_smc` can also be deleted.
 
 
 CodeMirror mode/lexer:
